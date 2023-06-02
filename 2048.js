@@ -88,11 +88,11 @@ function handleGesture() {
     } else if (ratioX > ratioY) {
         if (diffX >= 0) {
             // console.log('right swipe');
-            slideLeft();
+            slideRight();
             setTwo();
         } else {
             // console.log('left swipe');
-            slideRight();
+            slideLeft();
             setTwo();
         }
     } else {
